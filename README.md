@@ -27,6 +27,8 @@ When executed on a Kubernetes cluster, the `gcloud` command will automatically f
 
 Best thing is to create a Docker image from `google/cloud-sdk` image and set a *cron job* for the backup. If you plan to do a backup every day, set a limit to 7 to keep only one week of snapshots.
 
+**We will add a Docker image and an example as soon as possible ;)**
+
 # Contributions
 
 You are welcome to make any suggestions and Pull Requests!
